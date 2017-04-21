@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/mymac/AndroidStudioProjects/ProjectePay/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/mymac/developers/Github/ProjectePay/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/mymac/AndroidStudioProjects/ProjectePay/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6c7c51daf6660fe4e1031b6765592d2471cdecef/classes.dex" />
+        <dex dex="/Users/mymac/developers/Github/ProjectePay/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f26301436d96ee1e673dbb4b9d4dbad85d78cd4f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mymac/AndroidStudioProjects/ProjectePay/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/mymac/developers/Github/ProjectePay/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b80a027bc5bb408868a98427dce411fc2d60b240">
-        <dex dex="/Users/mymac/AndroidStudioProjects/ProjectePay/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ad840a96389501cbf94dd36fb356091fa9f47be5/classes.dex" />
+        sha1="1c5811a4a5588de430a031ac24fae3d55075e506">
+        <dex dex="/Users/mymac/developers/Github/ProjectePay/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8eb74d85ada3ec66518eede1fe3113522071d7ce/classes.dex" />
     </item>
 
 </items>
