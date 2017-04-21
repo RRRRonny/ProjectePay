@@ -30,6 +30,8 @@ public interface APIHelper extends DatabaseField {
     String API_TYPE_REGISTER = "register";
     String API_TYPE_PUBLISH = "publish";
     //2017年04月21日10:55:46
+    String API_TYPE_REQ_GOODS_DETAIL = "requestGoodsDetail";//请求商品详情
+    String API_TYPE_REQ_USER = "requestUser";               //请求用户详情
     String API_TYPE_BROWSE = "simpleBrowse";                //简单浏览
     String API_TYPE_PASSWORD = "password";                  //修改密码
     String API_TYPE_FAV = "fav";                            //收藏商品
