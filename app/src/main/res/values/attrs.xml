@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="IconView">
+        <attr name="image_resource" format="reference" />
+        <attr name="divider_size" format="dimension" />
+        <attr name="image_width" format="dimension" />
+        <attr name="image_height" format="dimension" />
+        <attr name="image_tint" format="reference" />
+    </declare-styleable>
+
+</resources>

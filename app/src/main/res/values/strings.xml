@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ProjectePay</string>
+    <!--分类页面位置选择-->
+    <string name="tv_location_select">位置选择</string>
+    <!--分类页面搜索框搜索内容提示-->
+    <string name="et_please_enter_a_search">请输入搜索内容</string>
+    <!--搜索-->
+    <string name="tv_search">搜索</string>
+    <!--分类布局图片下面的字-->
+    <string name="tt_digital_product">数码产品</string>
+    <string name="tt_clothe">日常衣物</string>
+    <string name="tt_household">家电</string>
+    <string name="tt_cosmetology">美容</string>
+    <string name="tt_sporting_goods">体育用品</string>
+    <string name="tt_maternal_child">母婴儿童</string>
+    <string name="tt_tablet_computer">平板电脑</string>
+    <string name="tt_notebook_pc">笔记本电脑</string>
+    <string name="cate_pc">电脑</string>
+
+    <!--底部菜单栏-->
+    <string name="tt_classify">分类</string>
+    <string name="tt_news">消息</string>
+    <string name="tt_publish">发布</string>
+    <string name="tt_transaction">交易</string>
+    <string name="tt_me">我的</string>
+    <!--消息页面-->
+    <string name="tv_news">消息</string>
+    <string name="tv_return">返回</string>
+    <!--交易页面-->
+    <string name="tv_transaction">交易</string>
+    <string name="tv_buy">已买到的宝贝</string>
+    <string name="tv_sell">已卖出的宝贝</string>
+    <!--发布页面-->
+    <string name="tv_publish">发布</string>
+    <string name="tv_select">选择图片</string>
+    <string name="tv_addInfo">点击添加对此商品的描述.....</string>
+    <string name="tv_selectCategory">点击选择物品分类</string>
+    <string name="tv_selectPrice">点击选择物品价格区间</string>
+    <!--登录页面-->
+    <string name="tv_login">登录</string>
+    <string name="tv_settings">设置</string>
+
+
+
+
+    <!--2017年04月20日17:51:20 chen-->
+    <!--本地缓存,用户的默认昵称-->
+    <string name="local_def_name">游客</string>
+
+</resources>

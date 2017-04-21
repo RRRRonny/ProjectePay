@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edLoginAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="account"
+        android:inputType="text"
+        android:textColorHint="@color/textPrimary" />
+
+    <EditText
+        android:id="@+id/edLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="text"
+        android:textColorHint="@color/textPrimary" />
+
+    <Button
+        android:id="@+id/btnLoginLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnLoginRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnLoginClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:textAllCaps="false" />
+
+</LinearLayout>

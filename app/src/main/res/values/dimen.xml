@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--默认边距-->
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+
+    <!--icon size-->
+    <dimen name="category_icon">48dp</dimen>
+    <!--icon text size-->
+    <dimen  name="category_text_size">10sp</dimen>
+</resources>
