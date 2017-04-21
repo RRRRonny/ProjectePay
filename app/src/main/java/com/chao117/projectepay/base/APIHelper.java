@@ -33,6 +33,7 @@ public interface APIHelper extends DatabaseField {
     String API_TYPE_BROWSE = "simpleBrowse";                //简单浏览
     String API_TYPE_PASSWORD = "password";                  //修改密码
     String API_TYPE_FAV = "fav";                            //收藏商品
+    String API_TYPE_REQ_FAV = "requestFav";                 //请求收藏的商品
     String API_TYPE_REQUEST_TRANSACTION = "transRequest";   //请求交易
     String API_TYPE_ACCEPT_TRANSACTION = "transAccept";     //接受交易
     String API_TYPE_CANCEL_TRANSACTION = "transCancel";     //取消交易
@@ -41,8 +42,8 @@ public interface APIHelper extends DatabaseField {
 
     String API_TYPE_ADD_SHIP_ADDRESS = "addShipAddress";    //新增收货地址
     String API_TYPE_REQ_SHIP_ADDRESS = "requestShipAddress";//请求收货地址
-    String API_TYPE_ADD_HISTORY = "addHistory";
-    String API_TYPE_REQ_HISTORY = "requestHistory";
+    String API_TYPE_ADD_HISTORY = "addHistory";             //写入浏览历史
+    String API_TYPE_REQ_HISTORY = "requestHistory";         //请求浏览历史
 
     String API_TYPE_CHECK_DB_VERSION = "checkDatabaseVer";  //检查本地服务器数据库版本号,先不实现
     String API_TYPE_UPDATE_LOCAL_DB = "updateLocalDatabase";//更新本地数据库
