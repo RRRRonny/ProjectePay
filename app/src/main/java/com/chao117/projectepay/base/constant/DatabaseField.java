@@ -47,6 +47,7 @@ public interface DatabaseField {
     //table_goods_state
     String GS_CONTENT = "gs_content";
     String GS_TIMESTAMP = "gs_timestamp";
+    String GS_REMARK = "gs_remark";
 
     //table_location
     String L_NAME = "l_name";
