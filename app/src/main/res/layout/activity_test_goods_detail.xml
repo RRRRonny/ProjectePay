@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chao117.projectepay.test.view.TestGoodsDetailActivity">
+
+    <EditText
+        android:id="@+id/etTestGDId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="goods's id" />
+
+    <Button
+        android:id="@+id/btnTestGDCommit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="commit" />
+
+    <TextView
+        android:id="@+id/tvTestGBName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name:" />
+
+    <TextView
+        android:id="@+id/tvTestGBPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price:" />
+
+    <TextView
+        android:id="@+id/tvTestGBId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user id:" />
+
+
+</LinearLayout>

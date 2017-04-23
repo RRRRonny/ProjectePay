@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chao117.projectepay.test.view.TestActivity">
+
+    <Button
+        android:id="@+id/btnTestGoodsDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test_goods_detail" />
+
+    <Button
+        android:id="@+id/btnTestAddHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test_add_history" />
+
+    <Button
+        android:id="@+id/btnTestModifyPsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test_modify_password" />
+</LinearLayout>
