@@ -5,4 +5,5 @@ package com.chao117.projectepay.presenter.browse;
  */
 
 public interface ICheckGoodsDetailPresenter {
+    void doCheckGoodsDetail(int id);
 }

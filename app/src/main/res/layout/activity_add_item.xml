@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_publish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.chao117.projectepay.view.activity.PublishActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/tv_publish"
+        android:textColor="@color/textPrimary" />
+
+
+    <com.chao117.projectepay.base.view.IconView
+        android:id="@+id/icvPubSelectImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tv_select"
+        android:textColor="@color/textPrimary"
+        android:textSize="16sp"
+        app:image_resource="@mipmap/img_camera"
+        app:image_tint="@color/icons" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edAddName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/tv_addInfo"
+            android:lines="1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edAddCate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/tv_selectCategory"
+            android:lines="1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edAddBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="品牌"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edAddPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/tv_selectPrice"
+            android:inputType="number"
+            android:lines="1"
+            android:textSize="16sp" />
+        <!--添加字数限制-->
+        <EditText
+            android:id="@+id/edAddContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="描述"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cbAddShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:padding="@dimen/default_padding"
+            android:text="同时分享到朋友圈" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnAddItemPublish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tv_publish"
+        android:textColor="@color/textPrimary"
+
+        />
+
+
+</LinearLayout>

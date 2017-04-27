@@ -53,7 +53,11 @@ public interface APIHelper extends DatabaseField {
     String API_TYPE_SEARCH_GOODS = "searchGoods";           //搜索商品
     String API_TYPE_REQUEST_MSGS = "requestMessages";       //请求 message 信息
     String API_TYPE_PUBLISH_MSG = "publishMessage";         //发布留言
-
+    
+    //2017年04月24日14:25:18
+    //交易相关,新的 api
+    String API_TYPE_CHECK_REQ_TRANSACTION = "reqTransCheck";//请求交易请求
+    String API_TYPE_CANCEL_REQ_TRANSACTION = "reqTransCancel";//取消交易请求
 
     /**
      * 以下为已经失效的常量

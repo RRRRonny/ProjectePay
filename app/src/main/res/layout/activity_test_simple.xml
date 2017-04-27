@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chao117.projectepay.test.view.TestSimpleActivity">
+
+    <ListView
+        android:id="@+id/lvTestSimGoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <Button
+        android:id="@+id/btnTestSimCommit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="commit" />
+
+
+</LinearLayout>

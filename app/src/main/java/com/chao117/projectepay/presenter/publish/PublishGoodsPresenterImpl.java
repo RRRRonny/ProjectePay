@@ -59,10 +59,10 @@ public class PublishGoodsPresenterImpl implements IPublishGoodsPresenter, Genera
         goods = new Goods();
         User user = new User();
         user.setId(Utils.getLocalUserId(context));
+        goods.setUser(user);
         goods.setName(name);
         goods.setRemark(content);
         goods.setPrice(price);
-
 
         String json = new Gson().toJson(goods, Goods.class);
         json = Utils.requestStrBuilder(json);

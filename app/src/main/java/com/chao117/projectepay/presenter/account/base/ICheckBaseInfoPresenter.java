@@ -5,4 +5,5 @@ package com.chao117.projectepay.presenter.account.base;
  */
 
 public interface ICheckBaseInfoPresenter {
+    void doRequestInfo();
 }

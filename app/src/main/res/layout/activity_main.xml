@@ -1,18 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.chao117.projectepay.view.activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <fragment
+        android:id="@+id/fragMainHome"
+        android:name="com.chao117.projectepay.view.fragment.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-</android.support.constraint.ConstraintLayout>
+    <fragment
+        android:id="@+id/fragMainCategory"
+        android:name="com.chao117.projectepay.view.fragment.CategoryFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragMainMsg"
+        android:name="com.chao117.projectepay.view.fragment.MessageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--底部导航栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.chao117.projectepay.base.view.IconView
+            android:id="@+id/icvMainHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            app:image_resource="@mipmap/home" />
+
+        <com.chao117.projectepay.base.view.IconView
+            android:id="@+id/icvMainCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Categoty"
+            app:image_resource="@mipmap/category" />
+
+        <com.chao117.projectepay.base.view.IconView
+            android:id="@+id/icvMainAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add"
+            app:image_tint="@color/colorAccent"
+            app:image_resource="@mipmap/add" />
+
+        <com.chao117.projectepay.base.view.IconView
+            android:id="@+id/icvMainMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Message"
+            app:image_resource="@mipmap/message" />
+
+        <com.chao117.projectepay.base.view.IconView
+            android:id="@+id/icvMainMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Me"
+            app:image_resource="@mipmap/me" />
+
+    </LinearLayout>
+</LinearLayout>

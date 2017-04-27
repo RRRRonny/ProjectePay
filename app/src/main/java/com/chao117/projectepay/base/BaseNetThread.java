@@ -67,26 +67,17 @@ public class BaseNetThread implements Runnable, Constant, NetConstant {
                 tString = reader.readLine();
             }
             Log.v("tag", "读取数据:" + responseString.toString());
-//            try {
-//                JSONObject jsonObject = new JSONObject(responseString.toString());
-//                Message message = new Message();
-//                message.what = WHAT_NET_SUCCESS;
-//                message.obj = jsonObject;
-//                //传出 json 串
-//                handler.sendMessage(message);
-//            } catch (JSONException e) {
-//                //json 解析异常
-//                handler.sendEmptyMessage(WHAT_RESPONSE_ILLEGAL);
-//                e.printStackTrace();
-//            }
             ServerResult serverResult = new Gson().fromJson(responseString.toString(), ServerResult.class);
             Message msg = new Message();
             msg.what = WHAT_NET_SUCCESS;
             msg.obj = serverResult;
             handler.sendMessage(msg);
+            Log.v("tag", "输出 ServerResult:" + serverResult.toString());
         } catch (IOException e) {
             handler.sendEmptyMessage(WHAT_NET_ERROR);
             e.printStackTrace();
+        } finally {
+            handler.sendEmptyMessage(WHAT_RESPONSE_ILLEGAL);
         }
     }
 }

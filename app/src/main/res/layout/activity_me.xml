@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chao117.projectepay.view.activity.MeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/containerMeAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <ImageView
+            android:id="@+id/ivMeHeader"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/img_1818" />
+
+        <TextView
+            android:id="@+id/tvMeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="@string/admin"
+            android:textColor="@color/textPrimary" />
+
+        <ImageView
+            android:id="@+id/ivMeSetting"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@mipmap/setting"
+            android:tint="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <!--状态:物流,-->
+
+    <!--收藏-->
+    <LinearLayout
+        android:id="@+id/containerMeMyFollow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_follow"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMeMyGoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyGoods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_goods"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMeMyHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_history"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMeMyAuction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyAuction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_auction"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMeMyTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_transaction"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMeMyPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/tvMeMyPackage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_package"
+            android:textColor="@color/textPrimary" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -45,5 +45,6 @@ public class WelcomeActivity extends AppCompatActivity implements Constant {
     private void jumpPage(Class target) {
         intent = new Intent(this, target);
         startActivity(intent);
+        finish();
     }
 }

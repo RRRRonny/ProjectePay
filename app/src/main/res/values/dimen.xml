@@ -8,4 +8,7 @@
     <dimen name="category_icon">48dp</dimen>
     <!--icon text size-->
     <dimen  name="category_text_size">10sp</dimen>
+
+    <!--text size-->
+    <dimen name="dialog_text_size">16sp</dimen>
 </resources>

@@ -41,5 +41,5 @@
         android:layout_height="wrap_content"
         android:text="clear"
         android:textAllCaps="false" />
-
+    
 </LinearLayout>

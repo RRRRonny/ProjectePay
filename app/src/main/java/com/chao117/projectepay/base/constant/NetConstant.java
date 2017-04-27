@@ -5,7 +5,7 @@ package com.chao117.projectepay.base.constant;
  */
 
 public interface NetConstant {
-    String API_URL = "http://192.168.1.157:8080/epay";
+    String API_URL = "http://192.168.8.101:8080/epay";
     String API_URL_ = "http://112.74.219.11:8080/epay";
 
     //handler what

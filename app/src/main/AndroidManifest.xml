@@ -14,21 +14,22 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".view.activity.MainActivity" />
         <activity android:name=".view.activity.LoginActivity" />
-        <activity android:name=".view.activity.WelcomeActivity" />
-        <activity android:name=".view.activity.RegisterActivity" />
-        <activity android:name=".view.activity.PublishActivity">
-
-        </activity>
-        <activity android:name=".test.view.TestActivity" >
+        <activity android:name=".view.activity.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".test.view.TestGoodsDetailActivity">
-
-        </activity>
+        <activity android:name=".view.activity.RegisterActivity" />
+        <activity android:name=".view.activity.PublishActivity" />
+        <activity android:name=".test.view.TestActivity" />
+        <activity android:name=".test.view.TestGoodsDetailActivity" />
+        <activity android:name=".test.view.TestSimpleActivity" />
+        <activity android:name=".view.activity.MeActivity" />
+        <activity android:name=".view.activity.AddItemActivity" />
+        <activity android:name=".view.activity.GeneralListViewActivity" />
+        <activity android:name=".view.activity.AccountInfoActivity"></activity>
     </application>
 
 </manifest>

@@ -5,4 +5,8 @@ package com.chao117.projectepay.presenter.browse;
  */
 
 public interface IBaseBrowsePresenter {
+    /**
+     * 展示所有的商品
+     */
+    void doBrowse();
 }

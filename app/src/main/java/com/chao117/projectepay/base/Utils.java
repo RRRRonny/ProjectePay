@@ -18,7 +18,9 @@ import com.google.gson.JsonParser;
 
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -127,7 +129,7 @@ public class Utils implements APIHelper, NetConstant, ErrorCode, Constant {
     public static int getLocalUserId(Context context) {
         SharedPreferences preferences;
         preferences = context.getSharedPreferences(PREFERENCES_NAME, Activity.MODE_PRIVATE);
-        int id = preferences.getInt(PRE_USER_ID, -1);
+        int id = preferences.getInt(PRE_USER_ID, 1);
         return id;
     }
 
@@ -142,6 +144,26 @@ public class Utils implements APIHelper, NetConstant, ErrorCode, Constant {
         preferences = context.getSharedPreferences(PREFERENCES_NAME, Activity.MODE_PRIVATE);
         String name = preferences.getString(PRE_USER_NAME, context.getResources().getString(R.string.local_def_name));
         return name;
+    }
+
+    /**
+     * show toast
+     *
+     * @param context
+     * @param msg
+     */
+    public static void showToast(Context context, String msg) {
+        Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
+    }
+
+
+    /**
+     * 获取指定格式的时间戳
+     *
+     * @return
+     */
+    public static String getTimeString(Date date) {
+        return new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss").format(date);
     }
 
     /**
@@ -163,4 +185,5 @@ public class Utils implements APIHelper, NetConstant, ErrorCode, Constant {
         serverResult.setObjects(tList);
         return serverResult;
     }
+
 }

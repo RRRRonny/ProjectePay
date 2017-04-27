@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding">
+
+    <TextView
+        android:id="@+id/tvDiaGoodsBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brand"
+        android:textSize="@dimen/dialog_text_size" />
+
+
+    <TextView
+        android:id="@+id/tvDiaGoodsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDiaGoodsBrand"
+        android:text="@string/name"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/tvDiaGoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDiaGoodsName"
+        android:text="@string/price"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/tvDiaGoodLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDiaGoodPrice"
+        android:text="@string/location"
+        android:textSize="@dimen/dialog_text_size" />
+
+
+    <TextView
+        android:id="@+id/tvDiaGoodsBrandDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/_null"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/tvDiaGoodsNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvDiaGoodsBrandDetail"
+        android:text="@string/_null"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/tvDiaGoodsPriceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvDiaGoodsNameDetail"
+        android:text="@string/_null"
+        android:textSize="@dimen/dialog_text_size" />
+
+    <TextView
+        android:id="@+id/tvDiaGoodsLocationDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvDiaGoodsPriceDetail"
+        android:text="@string/_null"
+        android:textSize="@dimen/dialog_text_size" />
+
+
+    <TextView
+        android:id="@+id/tvDiaGoodBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDiaGoodLocation"
+        android:layout_marginTop="10dp"
+        android:text="@string/bid"
+        android:textSize="@dimen/dialog_text_size" />
+
+
+    <TextView
+        android:drawableTint="@color/colorDivider"
+        android:id="@+id/tvDiaGoodFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvDiaGoodLocation"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/img_fav"
+        android:text="@string/follow_goods"
+        android:textSize="@dimen/dialog_text_size" />
+</RelativeLayout>

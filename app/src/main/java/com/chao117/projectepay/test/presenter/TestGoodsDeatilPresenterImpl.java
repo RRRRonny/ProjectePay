@@ -61,6 +61,7 @@ public class TestGoodsDeatilPresenterImpl implements ITestGoodsDetailPresenter, 
     public void doCommit(int id) {
         Goods goods = new Goods();
         goods.setId(id);
+
         String json = Utils.gsonBuilder(goods, Goods.class);
         json = Utils.requestStrBuilder(json);
         String apiURL = Utils.requestURLBuilder(APIHelper.API_TYPE_REQ_GOODS_DETAIL);

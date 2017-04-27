@@ -15,4 +15,7 @@ public interface Constant {
     String PRE_USER_ID = "userId";
     String PRE_USER_NAME = "userName";
 
+
+    //intent_extra
+    String INTENT_GENERAL_TITLE = "intentGeneralTitle";
 }

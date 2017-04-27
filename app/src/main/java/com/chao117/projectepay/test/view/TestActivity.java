@@ -20,6 +20,8 @@ public class TestActivity extends AppCompatActivity {
     Button btnTestAddHistory;
     @BindView(R.id.btnTestModifyPsw)
     Button btnTestModifyPsw;
+    @BindView(R.id.btnTestBrowse)
+    Button btnTestBrowse;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class TestActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btnTestGoodsDetail, R.id.btnTestAddHistory, R.id.btnTestModifyPsw})
+    @OnClick({R.id.btnTestGoodsDetail, R.id.btnTestAddHistory, R.id.btnTestModifyPsw, R.id.btnTestBrowse})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btnTestGoodsDetail:
@@ -38,10 +40,15 @@ public class TestActivity extends AppCompatActivity {
                 break;
             case R.id.btnTestModifyPsw:
                 break;
+            case R.id.btnTestBrowse:
+                jumpPage(TestSimpleActivity.class);
+                break;
         }
     }
 
     private void jumpPage(Class target) {
         startActivity(new Intent(this, target));
     }
+
+
 }
