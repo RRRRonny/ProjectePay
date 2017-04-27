@@ -84,14 +84,14 @@
 
 
     <TextView
-        android:drawableTint="@color/colorDivider"
         android:id="@+id/tvDiaGoodFav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@id/tvDiaGoodLocation"
         android:layout_marginTop="10dp"
-        android:drawableLeft="@mipmap/img_fav"
+        android:drawableLeft="@mipmap/fav"
+        android:drawableTint="@color/colorDivider"
         android:text="@string/follow_goods"
         android:textSize="@dimen/dialog_text_size" />
 </RelativeLayout>
